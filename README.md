@@ -1,21 +1,17 @@
-
-## Documentación del proyecto: 👇👇👇👇
-
-[Enlace PDF a nuestra memoria del proyecto, aquí hemos documentado toda la información](https://drive.google.com/file/d/1AhMGP3FR3PfB0SFlIT6csJURt-BoG03B/view?usp=sharing)
-----
-☝️☝️☝️☝️☝️☝️ 
-
-Enlace a nuestro docs de google: [Enlace a nuestro google docs](https://docs.google.com/document/d/1H3x92JhE5Dk6UspXBHLPRnNtCIbrnksKYRF5DkjXm10/edit?usp=sharing)
-
-<h1 align="center"> Harmonyxs, un proyecto musical</h1>
+<h1 align="center">Harmonyxs, un proyecto musical</h1>
 <p align="center"><img width="250" src="http://www.harmonyxs.com/images/Harmonyxs_black-cropped.svg?2ed702fa1c44a733240804a0fd0140f7"/></p> 
+
+## Documentación del proyecto: 👇
+
+[Harmonyxs - Documentación](https://drive.google.com/file/d/1AhMGP3FR3PfB0SFlIT6csJURt-BoG03B/view?usp=sharing)
+----
 
 ## Tabla de contenidos:
 ---
 - [Link de despliegue](#link-de-despliegue)
 - [Descripción y contexto](#descripción-y-contexto)
-- [Manual del usuario](#Manual-del-usuario)
-- [Dependencias](#dependencias)
+- [Tecnologías](#tecnologías)
+- [Manual del usuario](#manual-del-usuario)
 - [Autor/es](#autores)
 
 ## Link de despliegue
@@ -24,37 +20,35 @@ Enlace a nuestro docs de google: [Enlace a nuestro google docs](https://docs.goo
 
 ## Descripción y contexto
 ---
-Este proyecto busca desarrollar una aplicación web que permita a músicos y bandas ponerse en contacto, poder publicar sus anuncios y ver los perfiles de otros usuarios ya que actualmente este tipo de páginas webs apenas son existentes en el mercado. Esta necesidad surgió a raíz de que nuestro compañero Daniel Maestre necesitaba un cantante para su banda de Heavy Metal, por lo que quisimos suplir su necesidad y creamos conjuntamente Harmonyxs, para permitirle encontrar el músico idóneo a sus necesidades.
+En este proyecto se busca desarrollar una aplicación web para unir a músicos y bandas. Surge a partir de una necesidad mía real, ya que soy músico y en Mallorca no hay plataformas similares actualizadas a los estándares actuales y hay falta de comunidad de músicos, con lo que es complicado encontrar a músicos para mi banda. Harmonyxs busca ayudar a construir una comunidad de músicos y bandas.
+
+Estas son las funcionalidades a destacar que ofrece Harmonyxs:
+
+Los musicos y las bandas:
+- Pueden registrarse y loguearse en la página.
+- Personalizar su perfil.
+- Publicar y gestionar sus anuncios, y ver los anuncios de los demás. 
+- Visitar los perfiles de otros usuarios.
+- Contactar con los otros miembros de Harmonyxs.
+
+Los superadministradores tienen todas las capacidades de los perfiles normales y además:
+- Disponen de un panel de administración para la gestión de la página.
+- Tienen control total sobre los anuncios publicados.
+
+## Tecnologías
+---
+Las tecnologías utilizadas en este proyecto son:
+
+- HTML, CSS/SCSS con Bootstrap 5, Javascript.
+- PHP con framework Laravel 8, con librerías Spatie, Jetstream e Inertia.js.
+- Base de datos tipo SQL con el gestor MySql.
+- Vue.js 3, con librerías como vue-google-maps, vue-select y moment.
 
 ## Manual del usuario
 ---
 Este es el manual de usuario que hemos creado:👉👉👉👉👉
 [Manual de usuario, uso de harmonyxs](https://drive.google.com/file/d/1CL6s8zmmGctfr1WhR_mdPyweT8iCBOw9/view?usp=sharing)
 👈👈👈👈👈
-
-## Dependencias
----
-Lenguajes de programación:
-- Front-End:
-    - Javascript
-    - HTML5
-    - CSS/SCSS
-    - Bootstrap 5
-- Back-End:
-    - PHP
-- Base de datos utilizada: 
-    - Mysql WorkBench
-- Frameworks:
-    - Vue 3: 
-        - Vue3-google-maps: Para poder realizar mapeos de google maps.
-        - Vue-select: Equivale al select2 de jQuery, pero en Vue. Facilita la selección de las opciones al poder escribir en este.
-        - Moment: Dar un formato humano a las fechas de publicación.
-    - Laravel 8:
-        - Spatie: Laravel-permission, para tener un sistema de usuarios con roles y permisos, fácilmente escalable.
-        - Jetstream: para el sistema de autenticación, con Jetstrap para sustituir los estilos de Tailwind por Bootstrap.
-        - Inertia.js: para conectar Laravel y Vue y crear una SPA.
-
-Para comprobar el envío de emails hemos utilizado Mailtrap, que es un servicio de correo electrónico para realizar tests antes de poner la aplicación en producción.
 
 ## Autor/es
 ---
